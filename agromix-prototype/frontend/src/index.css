@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg-dark: #0A1912;
+  --bg-card: #12281E;
+  --bg-card-light: #1A362B;
+  --border-line: rgba(255, 255, 255, 0.12);
+  --primary-accent: #2ECC71;
+  --primary-hover: #27AE60;
+  --gold-accent: #F39C12;
+  --soil-brown: #E67E22;
+  --text-main: #F5F7F6;
+  --text-muted: #9BB0A5;
+  --text-dim: #6B8276;
+  --card-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+button, input {
+  font-family: inherit;
+}
